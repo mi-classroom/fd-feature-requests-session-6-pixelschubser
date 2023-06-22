@@ -23,7 +23,7 @@
     --accent-lightest: #fdd0d0;
     --light: hsl(0deg 0% 80% / 100%);
     --lighter: hsl(0deg 0% 90% / 100%);
-    --lightest: hsl(0deg 0% 100% / 100%);    
+    --lightest: hsl(0deg 0% 100% / 100%);
 
     /* Font Family */
     --font-family-sans: "IBM Plex Sans", sans-serif;

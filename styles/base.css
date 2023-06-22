@@ -1,4 +1,3 @@
-
 html,
 body {
     font-family: var(--font-family-sans);
@@ -27,11 +26,11 @@ h2 {
     line-height: var(--lh-normal);
 }
 
-h3{
+h3 {
     line-height: var(--lh-heading);
 }
 
-h2 + h3{
+h2+h3 {
     margin-top: calc(var(--m) * -1);
 }
 
@@ -65,9 +64,9 @@ ol {
     padding: 0 0 0 var(--spacing-margin-medium);
 }
 
-main > article:not(.hero),
-main > div,
-main > section:not(.hero){
+main>article:not(.hero),
+main>div,
+main>section:not(.hero) {
     max-width: var(--max-width-content);
     padding: var(--l);
     margin: auto;
@@ -86,8 +85,7 @@ article a {
 }
 
 section h2,
-article:not([class]) h2
- {
+article:not([class]) h2 {
     color: var(--accent);
     font-family: var(--font-family-serif);
     font-size: 1.3rem;
